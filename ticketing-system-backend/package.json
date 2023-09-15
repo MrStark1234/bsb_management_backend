@@ -4,9 +4,8 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js",
-    "start": "node ./prod-build/main.js",
-    "build": "webpack --config webpack.prod.js --mode development"
+    "dev": "node app.js",
+    "build": "npm i"
   },
   "keywords": [],
   "author": "",
