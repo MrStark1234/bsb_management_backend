@@ -64,7 +64,7 @@ app.use("/uploads/ticketing", express.static("uploads/ticketing"));
 const port = process.env.PORT || 8000;
 
 var corsOptions = {
-  origin: "*" || "http://localhost:3000",
+  origin: "*" || "http://localhost:3000", // Debug the cors issue
 };
 
 app.use(bodyParser.json());
